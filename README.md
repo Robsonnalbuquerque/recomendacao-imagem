@@ -1,4 +1,3 @@
-jupyter nbconvert recomendacao_por_imagem.ipynb --to script
 Recomendação por Imagem
 
 Este projeto tem como objetivo implementar um sistema de recomendação baseado em similaridade de imagens. Utilizando técnicas de visão computacional e aprendizado de máquina, o sistema é capaz de identificar itens visualmente semelhantes em um conjunto de dados de imagens.

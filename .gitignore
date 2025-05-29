@@ -1,11 +1,21 @@
-_pycache_/
-*.pyc
-*.ipynb_checkpoints
+Node modules
+node_modules/
+
+Ambiente
 .env
-.DS_Store
+
+Logs
+*.log
+npm-debug.log*
+
+Diretórios de build
+dist/
+build/
+
+Cache
+.cache/
 .vscode/
-.idea/
-*.h5
-*.pt
-*.pth
-dataset/
+
+Sistema
+.DS_Store
+Thumbs.db
