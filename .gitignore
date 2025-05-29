@@ -1,11 +1,22 @@
-_pycache_/
-*.pyc
-*.ipynb_checkpoints
-.env
-.DS_Store
-.vscode/
-.idea/
-*.h5
-*.pt
-*.pth
-dataset/
+recomendacao-imagem/
+│
+├── dataset/                    # Suas imagens organizadas por categoria
+│   ├── relogios/
+│   ├── camisetas/
+│   └── ...
+│
+├── notebooks/                  # Análises exploratórias
+│   └── recomendacao_por_imagem.ipynb
+│
+├── model/                      # Modelos treinados
+│
+├── src/                        # Código-fonte
+│   ├── feature_extractor.py
+│   ├── recommender.py
+│   └── utils.py
+│
+├── app/                        # Interface (opcional)
+│   └── streamlit_app.py
+│
+├── requirements.txt
+└── README.md
