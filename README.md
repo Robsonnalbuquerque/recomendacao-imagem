@@ -25,3 +25,7 @@ recomendacao-imagem/
 ├── requirements.txt   # Dependências
 ├── README.md
 └── .gitignore
+ ## Instalação
+    Clone o repositório e instale as dependências com:
+
+       pip install -r requirements.txt
